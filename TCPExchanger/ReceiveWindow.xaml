@@ -1,0 +1,15 @@
+﻿<Window x:Class="TCPExchanger.ReceiveWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TCPExchanger"
+        mc:Ignorable="d"
+        Title="ReceiveWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="label" Content="保存先" HorizontalAlignment="Left" Margin="46,104,0,0" VerticalAlignment="Top" Width="77"/>
+        <Button x:Name="receiveStartButton" Content="受信開始" HorizontalAlignment="Left" Margin="46,204,0,0" VerticalAlignment="Top" Width="167" Click="ReceiveButton_Click"/>
+        <TextBox x:Name="pathText" HorizontalAlignment="Left" Height="23" Margin="128,104,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPExchanger", "TCPExchanger\TCPExchanger.csproj", "{D8EBB6BD-D3F8-4217-B96A-2600E791ACBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8EBB6BD-D3F8-4217-B96A-2600E791ACBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8EBB6BD-D3F8-4217-B96A-2600E791ACBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8EBB6BD-D3F8-4217-B96A-2600E791ACBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8EBB6BD-D3F8-4217-B96A-2600E791ACBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BD5F659-5E3B-4865-B60A-D9454251AAA7}
+	EndGlobalSection
+EndGlobal
