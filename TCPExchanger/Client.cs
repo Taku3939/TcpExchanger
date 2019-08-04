@@ -36,10 +36,11 @@ namespace TCPExchanger
             nstream.ReadTimeout = 15000;
             nstream.WriteTimeout = 15000;
 
-            nstream.Write(sendBytes, 0, sendBytes.Length);
-            nstream.Close();
-            Console.WriteLine("send");
-           
+            nstream.WriteAsync(sendBytes, 0, sendBytes.Length).ContinueWith(task =>
+            {
+                nstream.Close();
+                Console.WriteLine("send");
+            },TaskScheduler.FromCurrentSynchronizationContext());
         }
     }
 }

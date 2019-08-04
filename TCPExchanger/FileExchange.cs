@@ -3,17 +3,12 @@ using System.IO;
 using System.Net.Sockets;
 using System.Windows;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace TCPExchanger
 {
     class FileExchange
     {
-        //読み取り時のバッファー
-        //読み込んだデータを保存するメモリーストリーム
-        //private MemoryStream allbytes = null;
-        //ファイルを読み込んだときに発生するイベント
-       // public event Action<Byte[]> OnWriteEvent;
-
         //ファイルをバイナリ形式で読み込む
         public void LoadFile(string filename, TcpClient client)
         {
@@ -32,20 +27,18 @@ namespace TCPExchanger
             Client cl = new Client();
             cl.Send(client, bytes);
             Console.WriteLine("convert");
-            
-            // OnLoadEvent();
-
         }
         public void WriteFile(string path, byte[] res)
         {
             string filename;
             var filebyte = GetbyByte(res, out filename);
             FileStream fs = new FileStream(path + filename, FileMode.Create, FileAccess.Write);
-            fs.Write(filebyte, 0, filebyte.Length);
-            fs.Close();
-            Console.WriteLine("write");
-            MessageBox.Show("send");
-            //OnWriteEvent+={ };
+            fs.WriteAsync(filebyte, 0, filebyte.Length).ContinueWith(task =>
+            {
+                fs.Close();
+                Console.WriteLine("write");
+                MessageBox.Show("send");
+            }, TaskScheduler.FromCurrentSynchronizationContext());
         }
         public static byte[] GetbyByte(byte[] bytes,out string name)
         {

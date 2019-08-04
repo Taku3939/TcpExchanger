@@ -31,7 +31,7 @@ namespace TCPExchanger
                 var rec = Receive(client);
                 Console.WriteLine("Accept");
                 Accept();
-            });
+            }, TaskScheduler.FromCurrentSynchronizationContext());
         }
         //データ受信
         public async Task Receive(TcpClient client)

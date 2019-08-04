@@ -29,11 +29,9 @@ namespace TCPExchanger
             string path = pathText.Text;
             var server = new Server();
             var fe = new FileExchange();
-            // fe = new FileExchange();
             server.OnConnectEvent += (tcpClient) =>
             {
                 Console.WriteLine(tcpClient.Client.RemoteEndPoint);
-
             };
             server.receiveCallBack += (bytes) =>
             {
