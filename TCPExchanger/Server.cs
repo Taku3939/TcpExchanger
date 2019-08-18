@@ -12,6 +12,8 @@ namespace TCPExchanger
     class Server
     {
         private TcpListener _listener;
+        public List<TcpClient> _clients = new List<TcpClient>();
+
         public event Action<TcpClient> OnConnectEvent;
         public event Action<Byte[]> receiveCallBack;
         //接続準備、接続待機
@@ -27,6 +29,7 @@ namespace TCPExchanger
             _listener.AcceptTcpClientAsync().ContinueWith(task =>
             {
                 TcpClient client = task.Result;
+                _clients.Add(client);
                 OnConnectEvent(client);
                 var rec = Receive(client);
                 Console.WriteLine("Accept");
@@ -36,30 +39,38 @@ namespace TCPExchanger
         //データ受信
         public async Task Receive(TcpClient client)
         {
-            bool isError = false;
-            NetworkStream nStream = client.GetStream();
-            MemoryStream mStream = new MemoryStream();
-            byte[] gdata = new byte[256];
-            do
+            foreach (var cl in _clients)
             {
-                int dataSize = await nStream.ReadAsync(gdata, 0, gdata.Length);
-                if (dataSize == 0) isError = true;
-                await mStream.WriteAsync(gdata, 0, dataSize);
-            }
-            while (nStream.DataAvailable);
-            byte[] receiveBytes = mStream.GetBuffer();
+                bool isError = false;
+                NetworkStream nStream = cl.GetStream();
+                MemoryStream mStream = new MemoryStream();
+                byte[] gdata = new byte[256];
+                do
+                {
+                    int dataSize = await nStream.ReadAsync(gdata, 0, gdata.Length);
+                    if (dataSize == 0) isError = true;
+                    await mStream.WriteAsync(gdata, 0, dataSize);
+                }
+                while (nStream.DataAvailable);
+                byte[] receiveBytes = mStream.GetBuffer();
 
-            byte[] data = new byte[mStream.Length];
-            for (int i = 0; i < data.Length; i++)
-            {
-                data[i] = receiveBytes[i];
-            }
-            if (isError) return;
-            Console.WriteLine("Recived : " + data.Length + " bytes ");
+                byte[] data = new byte[mStream.Length];
+                for (int i = 0; i < data.Length; i++)
+                {
+                    data[i] = receiveBytes[i];
+                }
+                if (isError) return;
+                Console.WriteLine("Recived : " + data.Length + " bytes ");
 
-            receiveCallBack?.Invoke(data);
-            mStream.Close();
-            client.Close();
+                receiveCallBack?.Invoke(data);
+                mStream.Close();
+                client.Close();
+            }        
+        }
+        public void CloseListen()
+        {
+            _listener.Stop();
+            Console.WriteLine("listenStop");
         }
     }
 }

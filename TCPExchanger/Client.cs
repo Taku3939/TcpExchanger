@@ -28,7 +28,7 @@ namespace TCPExchanger
  
             var fe = new FileExchange();
             fe.LoadFile(file,_client);
-
+ 
             }
         public void Send(TcpClient client ,Byte[] sendBytes){
             //ファイルの送信

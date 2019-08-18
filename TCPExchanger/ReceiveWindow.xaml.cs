@@ -20,6 +20,7 @@ namespace TCPExchanger
     /// </summary>
     public partial class ReceiveWindow : Window
     {
+        Server server;
         public ReceiveWindow()
         {
             InitializeComponent();
@@ -27,7 +28,7 @@ namespace TCPExchanger
         private void ReceiveButton_Click(object sender, RoutedEventArgs e)
         {
             string path = pathText.Text;
-            var server = new Server();
+            server = new Server();
             var fe = new FileExchange();
             server.OnConnectEvent += (tcpClient) =>
             {
@@ -44,6 +45,11 @@ namespace TCPExchanger
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             pathText.Text = @"E:\";
+        }
+
+        private void AppExit(object sender, EventArgs e)
+        {
+            server.CloseListen();
         }
     }
 }
