@@ -12,12 +12,16 @@ namespace TCPExchanger
         //ファイルをバイナリ形式で読み込む
         public void LoadFile(string filename, TcpClient client)
         {
-            FileStream fs = new FileStream(filename, FileMode.Open, FileAccess.Read);
+            var readbyte = File.ReadAllBytes(filename);
             string file = Path.GetFileName(filename);
             byte[] namebyte = Encoding.UTF8.GetBytes(file);
-            byte[] readbyte = new byte[fs.Length];
-            fs.Read(readbyte, 0, readbyte.Length);
-            fs.Close();
+
+            //FileStream fs = new FileStream(filename, FileMode.Open, FileAccess.Read);
+            //string file = Path.GetFileName(filename);
+            //byte[] namebyte = Encoding.UTF8.GetBytes(file);
+            //byte[] readbyte = new byte[fs.Length];
+            //fs.Read(readbyte, 0, readbyte.Length);
+            //fs.Close();
 
             byte[] bytes = new byte[namebyte.Length+readbyte.Length+1] ;
           
