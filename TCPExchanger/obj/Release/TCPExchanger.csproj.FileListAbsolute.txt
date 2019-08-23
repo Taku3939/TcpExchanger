@@ -1,0 +1,16 @@
+E:\document\GitHub\TcpExcahanger\TCPExchanger\bin\Release\TCPExchanger.exe.config
+E:\document\GitHub\TcpExcahanger\TCPExchanger\bin\Release\TCPExchanger.exe
+E:\document\GitHub\TcpExcahanger\TCPExchanger\bin\Release\TCPExchanger.pdb
+E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Release\MainWindow.g.cs
+E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Release\ReceiveWindow.g.cs
+E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Release\App.g.cs
+E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Release\TCPExchanger_MarkupCompile.cache
+E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Release\TCPExchanger_MarkupCompile.lref
+E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Release\MainWindow.baml
+E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Release\ReceiveWindow.baml
+E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Release\TCPExchanger.g.resources
+E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Release\TCPExchanger.Properties.Resources.resources
+E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Release\TCPExchanger.csproj.GenerateResource.cache
+E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Release\TCPExchanger.csproj.CoreCompileInputs.cache
+E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Release\TCPExchanger.exe
+E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Release\TCPExchanger.pdb

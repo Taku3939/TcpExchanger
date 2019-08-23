@@ -43,7 +43,6 @@ E:\document\ProjectMIKUEC\TCPExchanger2\TCPExchanger\obj\Debug\TCPExchanger.cspr
 E:\document\GitHub\TcpExcahanger\TCPExchanger\bin\Debug\TCPExchanger.exe.config
 E:\document\GitHub\TcpExcahanger\TCPExchanger\bin\Debug\TCPExchanger.exe
 E:\document\GitHub\TcpExcahanger\TCPExchanger\bin\Debug\TCPExchanger.pdb
-E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Debug\TCPExchanger.csprojAssemblyReference.cache
 E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Debug\MainWindow.g.cs
 E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Debug\ReceiveWindow.g.cs
 E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Debug\App.g.cs
