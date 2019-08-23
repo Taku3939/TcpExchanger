@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net;
 using System.Net.Sockets;
+using System.Windows;
 
 namespace TCPExchanger
 {
@@ -38,8 +39,9 @@ namespace TCPExchanger
 
             nstream.WriteAsync(sendBytes, 0, sendBytes.Length).ContinueWith(task =>
             {
-                nstream.Close();
                 Console.WriteLine("send");
+                MessageBox.Show("sendeBytes" + sendBytes.Length.ToString() + "Bytes"); 
+                nstream.Close();
             },TaskScheduler.FromCurrentSynchronizationContext());
         }
     }

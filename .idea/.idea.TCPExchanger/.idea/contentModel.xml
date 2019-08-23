@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\taku2\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\taku2\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_TCPExchanger.1004039308.00" t="ExcludeRecursive" />
+    <e p="E:\document\GitHub\TcpExcahanger" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TCPExchanger" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Client.cs" t="Include" />
+        <e p="FileExchange.cs" t="Include" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="ReceiveWindow.xaml" t="Include" />
+        <e p="ReceiveWindow.xaml.cs" t="Include" />
+        <e p="Server.cs" t="Include" />
+        <e p="TCPExchanger.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TCPExchanger.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

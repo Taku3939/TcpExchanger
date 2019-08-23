@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Net.Sockets;
 using System.Net;
 using System.IO;
+using System.Windows;
 
 namespace TCPExchanger
 {
@@ -60,8 +61,11 @@ namespace TCPExchanger
                     data[i] = receiveBytes[i];
                 }
                 if (isError) return;
-                Console.WriteLine("Recived : " + data.Length + " bytes ");
-
+                
+                int a = data.Length;
+                string v = a.ToString();
+                Console.WriteLine("Recived : " + v + " bytes ");
+                MessageBox.Show("Received" + v + "bytes");
                 receiveCallBack?.Invoke(data);
                 mStream.Close();
                 client.Close();

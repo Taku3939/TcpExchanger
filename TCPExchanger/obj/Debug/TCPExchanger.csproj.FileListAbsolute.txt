@@ -56,3 +56,4 @@ E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Debug\TCPExchanger.csproj.Gene
 E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Debug\TCPExchanger.csproj.CoreCompileInputs.cache
 E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Debug\TCPExchanger.exe
 E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Debug\TCPExchanger.pdb
+E:\document\GitHub\TcpExcahanger\TCPExchanger\obj\Debug\TCPExchanger.csprojAssemblyReference.cache

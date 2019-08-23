@@ -44,7 +44,7 @@ namespace TCPExchanger
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            pathText.Text = @"E:\";
+              
         }
 
         private void AppExit(object sender, EventArgs e)

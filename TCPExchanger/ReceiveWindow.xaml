@@ -9,7 +9,7 @@
     <Grid>
         <Label x:Name="label" Content="保存先" HorizontalAlignment="Left" Margin="46,104,0,0" VerticalAlignment="Top" Width="77"/>
         <Button x:Name="receiveStartButton" Content="受信開始" HorizontalAlignment="Left" Margin="46,204,0,0" VerticalAlignment="Top" Width="167" Click="ReceiveButton_Click"/>
-        <TextBox x:Name="pathText" HorizontalAlignment="Left" Height="23" Margin="128,104,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="pathText" HorizontalAlignment="Left" Height="23" Margin="128,104,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
 
     </Grid>
 </Window>

@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <treeState key="project">
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="helperText" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.LinkedTextDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb035d10-24dd-4e4a-ab84-caa51eb2dbaf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/TCPExchanger/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TCPExchanger/Client.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCPExchanger/ReceiveWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/TCPExchanger/ReceiveWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCPExchanger/ReceiveWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TCPExchanger/ReceiveWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCPExchanger/Server.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TCPExchanger/Server.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCPExchanger/bin/Debug/TCPExchanger.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TCPExchanger/bin/Debug/TCPExchanger.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCPExchanger/bin/Debug/TCPExchanger.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TCPExchanger/bin/Debug/TCPExchanger.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCPExchanger/obj/Debug/ReceiveWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/TCPExchanger/obj/Debug/ReceiveWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCPExchanger/obj/Debug/ReceiveWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TCPExchanger/obj/Debug/ReceiveWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCPExchanger/obj/Debug/ReceiveWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TCPExchanger/obj/Debug/ReceiveWindow.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCPExchanger/obj/Debug/TCPExchanger.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TCPExchanger/obj/Debug/TCPExchanger.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCPExchanger/obj/Debug/TCPExchanger.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TCPExchanger/obj/Debug/TCPExchanger.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCPExchanger/obj/Debug/TCPExchanger.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/TCPExchanger/obj/Debug/TCPExchanger.g.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCPExchanger/obj/Debug/TCPExchanger.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TCPExchanger/obj/Debug/TCPExchanger.pdb" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TCPExchanger" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TCPExchanger/MainWindow.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <marker date="1564894784143" expanded="true" signature="0:1727" ph="&lt;&lt;Grid&gt;&#10;        &lt;TextBox x:Name=&quot;File&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;35&quot; Margin=&quot;23,117,0,0&quot; TextWrapping=&quot;Wrap&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;380&quot; TextChanged=&quot;TextBox_TextChanged&quot;/&gt;&#10;        &lt;Button x:Name=&quot;SendButton&quot; Content=&quot;Send&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;155,246,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;126&quot; Height=&quot;54&quot; Click=&quot;SendButton_Click&quot;/&gt;&#10;        &lt;TextBox x:Name=&quot;ipText&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;33&quot; Margin=&quot;98,56,0,0&quot; TextWrapping=&quot;Wrap&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;380&quot; TextChanged=&quot;TextBox2_TextChanged&quot;/&gt;&#10;        &lt;Button x:Name=&quot;button&quot; Content=&quot;Local IP&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;23,56,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;75&quot; Height=&quot;33&quot; Click=&quot;Button_Click&quot;/&gt;&#10;        &lt;Button x:Name=&quot;openFileButton&quot; Content=&quot;参照&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;434,117,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;75&quot; Height=&quot;35&quot; Click=&quot;OpenFileButton_Click&quot;/&gt;&#10;        &lt;Button x:Name=&quot;button1&quot; Content=&quot;受け取る&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;658,0,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;134&quot; Height=&quot;64&quot; Click=&quot;Button1_Click&quot;/&gt;&#10;        &lt;TextBox x:Name=&quot;textBox&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;72&quot; Margin=&quot;631,347,0,0&quot; TextWrapping=&quot;Wrap&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;161&quot; TextChanged=&quot;TextBox_TextChanged_1&quot;/&gt;&#10;&#10;    &lt;/Grid&gt;.../&gt;" />
+                <marker date="1564894784143" expanded="true" signature="458:1717" ph="&lt;&lt;TextBox x:Name=&quot;File&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;35&quot; Margin=&quot;23,117,0,0&quot; TextWrapping=&quot;Wrap&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;380&quot; TextChanged=&quot;TextBox_TextChanged&quot;/&gt; &lt;Button x:Name=&quot;SendButton&quot; Content=&quot;Send&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;155,246,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;126&quot; Height=&quot;54&quot; Click=&quot;SendButton_Click&quot;/&gt; &lt;TextBox x:Name=&quot;ipText&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;33&quot; Margin=&quot;98,56,0,0&quot; TextWrapping=&quot;Wrap&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;380&quot; TextChanged=&quot;TextBox2_TextChanged&quot;/&gt; &lt;Button x:Name=&quot;button&quot; Content=&quot;Local IP&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;23,56,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;75&quot; Height=&quot;33&quot; Click=&quot;Button_Click&quot;/&gt; &lt;Button x:Name=&quot;openFileButton&quot; Content=&quot;参照&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;434,117,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;75&quot; Height=&quot;35&quot; Click=&quot;OpenFileButton_Click&quot;/&gt; &lt;Button x:Name=&quot;button1&quot; Content=&quot;受け取る&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;658,0,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;134&quot; Height=&quot;64&quot; Click=&quot;Button1_Click&quot;/&gt; &lt;TextBox x:Name=&quot;textBox&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;72&quot; Margin=&quot;631,347,0,0&quot; TextWrapping=&quot;Wrap&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;161&quot; TextChanged=&quot;TextBox_TextChanged_1&quot;/&gt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TCPExchanger/MainWindow.xaml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5">
+              <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+              <folding>
+                <marker date="1564851972615" expanded="false" signature="6:404" ph="..." />
+                <marker date="1564851972615" expanded="true" signature="428:2220" ph="{...}" />
+                <marker date="1564851972615" expanded="true" signature="435:501" ph="/// MainWindow.xaml の相互作用ロジック ... " />
+                <marker date="1564851972615" expanded="true" signature="546:2218" ph="{...}" />
+                <marker date="1564851972615" expanded="true" signature="613:679" ph="{...}" />
+                <marker date="1564851972615" expanded="true" signature="761:793" ph="{...}" />
+                <marker date="1564851972615" expanded="true" signature="874:895" ph="{...}" />
+                <marker date="1564851972615" expanded="true" signature="972:1396" ph="{...}" />
+                <marker date="1564851972615" expanded="true" signature="1117:1177" ph="/* 説明文を設定 ... */" />
+                <marker date="1564851972615" expanded="true" signature="1220:1386" ph="{...}" />
+                <marker date="1564851972615" expanded="true" signature="1469:1803" ph="{...}" />
+                <marker date="1564851972615" expanded="true" signature="1647:1746" ph="/* fe.OnSendEvent += (data) =&gt; ... */" />
+                <marker date="1564851972615" expanded="true" signature="1873:1980" ph="{...}" />
+                <marker date="1564851972615" expanded="true" signature="2049:2108" ph="{...}" />
+                <marker date="1564851972615" expanded="true" signature="2191:2212" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TCPExchanger/FileExchange.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+              <folding>
+                <marker date="1566132621931" expanded="false" signature="6:127" ph="..." />
+                <marker date="1566132621931" expanded="true" signature="151:2606" ph="{...}" />
+                <marker date="1566132621931" expanded="true" signature="176:2604" ph="{...}" />
+                <marker date="1566132621931" expanded="true" signature="273:1183" ph="{...}" />
+                <marker date="1566132621931" expanded="true" signature="467:792" ph="/* FileStream fs = new FileStream(filename, FileMode.Open, FileAccess.Read); ... */" />
+                <marker date="1566132621931" expanded="true" signature="1238:1711" ph="{...}" />
+                <marker date="1566132621931" expanded="true" signature="1520:1648" ph="{...}" />
+                <marker date="1566132621931" expanded="true" signature="1780:2014" ph="{...}" />
+                <marker date="1566132621931" expanded="true" signature="2100:2598" ph="{...}" />
+                <marker date="1566132621931" expanded="true" signature="2201:2562" ph="{...}" />
+                <marker date="1566132621931" expanded="true" signature="2249:2548" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TCPExchanger/Client.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+              <folding>
+                <marker date="1566579739341" expanded="false" signature="6:181" ph="..." />
+                <marker date="1566579739341" expanded="true" signature="205:1278" ph="{...}" />
+                <marker date="1566579739341" expanded="true" signature="224:1276" ph="{...}" />
+                <marker date="1566579739341" expanded="true" signature="331:718" ph="{...}" />
+                <marker date="1566579739341" expanded="true" signature="357:505" ph="{...}" />
+                <marker date="1566579739341" expanded="true" signature="536:620" ph="{...}" />
+                <marker date="1566579739341" expanded="true" signature="779:1270" ph="{...}" />
+                <marker date="1566579739341" expanded="true" signature="1029:1208" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TCPExchanger/Server.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="66" column="34" lean-forward="true" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+              <folding>
+                <marker date="1566579527628" expanded="false" signature="6:198" ph="..." />
+                <marker date="1566579527628" expanded="true" signature="222:2541" ph="{...}" />
+                <marker date="1566579527628" expanded="true" signature="241:2539" ph="{...}" />
+                <marker date="1566579527628" expanded="true" signature="504:659" ph="{...}" />
+                <marker date="1566579527628" expanded="true" signature="705:1112" ph="{...}" />
+                <marker date="1566579527628" expanded="true" signature="794:1049" ph="{...}" />
+                <marker date="1566579527628" expanded="true" signature="1180:2404" ph="{...}" />
+                <marker date="1566579527628" expanded="true" signature="1231:2386" ph="{...}" />
+                <marker date="1566579527628" expanded="true" signature="1921:2004" ph="{...}" />
+                <marker date="1566579527628" expanded="true" signature="2438:2533" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TCPExchanger/ReceiveWindow.xaml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+              <folding>
+                <marker date="1566579167487" expanded="false" signature="6:348" ph="..." />
+                <marker date="1566579167487" expanded="true" signature="373:1360" ph="{...}" />
+                <marker date="1566579167487" expanded="true" signature="380:449" ph="/// ReceiveWindow.xaml の相互作用ロジック ... " />
+                <marker date="1566579167487" expanded="true" signature="497:1358" ph="{...}" />
+                <marker date="1566579167487" expanded="true" signature="557:612" ph="{...}" />
+                <marker date="1566579167487" expanded="true" signature="687:1124" ph="{...}" />
+                <marker date="1566579167487" expanded="true" signature="879:962" ph="{...}" />
+                <marker date="1566579167487" expanded="true" signature="1025:1083" ph="{...}" />
+                <marker date="1566579167487" expanded="true" signature="1205:1240" ph="{...}" />
+                <marker date="1566579167487" expanded="true" signature="1298:1352" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TCPExchanger/ReceiveWindow.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="121" selection-start-line="11" selection-start-column="121" selection-end-line="11" selection-end-column="121" />
+              <folding>
+                <marker date="1566578078972" expanded="true" signature="0:988" ph="&lt;&lt;Grid&gt;&#10;        &lt;Label x:Name=&quot;label&quot; Content=&quot;保存先&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;46,104,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;77&quot;/&gt;&#10;        &lt;Button x:Name=&quot;receiveStartButton&quot; Content=&quot;受信開始&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;46,204,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;167&quot; Click=&quot;ReceiveButton_Click&quot;/&gt;&#10;        &lt;TextBox x:Name=&quot;pathText&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;23&quot; Margin=&quot;128,104,0,0&quot; TextWrapping=&quot;Wrap&quot; Text=&quot;TextBox&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;120&quot; TextChanged=&quot;TextBox_TextChanged&quot;/&gt;&#10;&#10;    &lt;/Grid&gt;.../&gt;" />
+                <marker date="1566578078972" expanded="true" signature="464:978" ph="&lt;&lt;Label x:Name=&quot;label&quot; Content=&quot;保存先&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;46,104,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;77&quot;/&gt; &lt;Button x:Name=&quot;receiveStartButton&quot; Content=&quot;受信開始&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;46,204,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;167&quot; Click=&quot;ReceiveButton_Click&quot;/&gt; &lt;TextBox x:Name=&quot;pathText&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;23&quot; Margin=&quot;128,104,0,0&quot; TextWrapping=&quot;Wrap&quot; Text=&quot;TextBox&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;120&quot; TextChanged=&quot;TextBox_TextChanged&quot;/&gt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TCPExchanger/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TCPExchanger/ReceiveWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TCPExchanger/Server.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TCPExchanger/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TCPExchanger/FileExchange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TCPExchanger/Client.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TCPExchanger/ReceiveWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TCPExchanger/ReceiveWindow.xaml" />
+        <option value="$PROJECT_DIR$/TCPExchanger/ReceiveWindow.xaml.cs" />
+        <option value="$PROJECT_DIR$/TCPExchanger/Server.cs" />
+        <option value="$PROJECT_DIR$/TCPExchanger/Client.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="94" />
+    <option name="y" value="-8" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TCPExchanger" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TCPExchanger" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TCPExchanger" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TCPExchanger" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TCPExchanger" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MainWindow.xaml" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="TCPExchanger" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TCPExchanger" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ReceiveWindow.xaml" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="XamlPreviewOptionsPage" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/TCPExchanger/bin/Debug/TCPExchanger.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TCPExchanger/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/TCPExchanger/TCPExchanger.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb035d10-24dd-4e4a-ab84-caa51eb2dbaf" name="Default Changelist" comment="" />
+      <created>1566576213727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566576213727</updated>
+      <workItem from="1566576221563" duration="500000" />
+      <workItem from="1566577078490" duration="2659000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3159000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49881235" visible="true" weight="0.25253063" />
+      <window_info id="Structure" order="1" sideWeight="0.5011876" side_tool="true" weight="0.25253063" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.5011876" side_tool="true" weight="0.25253063" />
+      <window_info anchor="bottom" id="Build" weight="0.32977587" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32977587" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32977587" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32977587" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" weight="0.32977587" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32977587" />
+      <window_info anchor="bottom" id="XAML Preview" order="13" sideWeight="0.49973363" weight="0.5506937" />
+      <window_info anchor="bottom" id="TeamCity" order="14" weight="0.32977587" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.5002664" side_tool="true" weight="0.5506937" />
+      <window_info anchor="bottom" id="Terminal" order="16" weight="0.32977587" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Errors In Solution" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TCPExchanger/ReceiveWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="121" selection-start-line="11" selection-start-column="121" selection-end-line="11" selection-end-column="121" />
+          <folding>
+            <marker date="1566578078972" expanded="true" signature="0:988" ph="&lt;&lt;Grid&gt;&#10;        &lt;Label x:Name=&quot;label&quot; Content=&quot;保存先&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;46,104,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;77&quot;/&gt;&#10;        &lt;Button x:Name=&quot;receiveStartButton&quot; Content=&quot;受信開始&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;46,204,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;167&quot; Click=&quot;ReceiveButton_Click&quot;/&gt;&#10;        &lt;TextBox x:Name=&quot;pathText&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;23&quot; Margin=&quot;128,104,0,0&quot; TextWrapping=&quot;Wrap&quot; Text=&quot;TextBox&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;120&quot; TextChanged=&quot;TextBox_TextChanged&quot;/&gt;&#10;&#10;    &lt;/Grid&gt;.../&gt;" />
+            <marker date="1566578078972" expanded="true" signature="464:978" ph="&lt;&lt;Label x:Name=&quot;label&quot; Content=&quot;保存先&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;46,104,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;77&quot;/&gt; &lt;Button x:Name=&quot;receiveStartButton&quot; Content=&quot;受信開始&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;46,204,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;167&quot; Click=&quot;ReceiveButton_Click&quot;/&gt; &lt;TextBox x:Name=&quot;pathText&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;23&quot; Margin=&quot;128,104,0,0&quot; TextWrapping=&quot;Wrap&quot; Text=&quot;TextBox&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;120&quot; TextChanged=&quot;TextBox_TextChanged&quot;/&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TCPExchanger/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+          <folding>
+            <marker date="1564851972615" expanded="false" signature="6:404" ph="..." />
+            <marker date="1564851972615" expanded="true" signature="428:2220" ph="{...}" />
+            <marker date="1564851972615" expanded="true" signature="435:501" ph="/// MainWindow.xaml の相互作用ロジック ... " />
+            <marker date="1564851972615" expanded="true" signature="546:2218" ph="{...}" />
+            <marker date="1564851972615" expanded="true" signature="613:679" ph="{...}" />
+            <marker date="1564851972615" expanded="true" signature="761:793" ph="{...}" />
+            <marker date="1564851972615" expanded="true" signature="874:895" ph="{...}" />
+            <marker date="1564851972615" expanded="true" signature="972:1396" ph="{...}" />
+            <marker date="1564851972615" expanded="true" signature="1117:1177" ph="/* 説明文を設定 ... */" />
+            <marker date="1564851972615" expanded="true" signature="1220:1386" ph="{...}" />
+            <marker date="1564851972615" expanded="true" signature="1469:1803" ph="{...}" />
+            <marker date="1564851972615" expanded="true" signature="1647:1746" ph="/* fe.OnSendEvent += (data) =&gt; ... */" />
+            <marker date="1564851972615" expanded="true" signature="1873:1980" ph="{...}" />
+            <marker date="1564851972615" expanded="true" signature="2049:2108" ph="{...}" />
+            <marker date="1564851972615" expanded="true" signature="2191:2212" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TCPExchanger/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1564894784143" expanded="true" signature="0:1727" ph="&lt;&lt;Grid&gt;&#10;        &lt;TextBox x:Name=&quot;File&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;35&quot; Margin=&quot;23,117,0,0&quot; TextWrapping=&quot;Wrap&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;380&quot; TextChanged=&quot;TextBox_TextChanged&quot;/&gt;&#10;        &lt;Button x:Name=&quot;SendButton&quot; Content=&quot;Send&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;155,246,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;126&quot; Height=&quot;54&quot; Click=&quot;SendButton_Click&quot;/&gt;&#10;        &lt;TextBox x:Name=&quot;ipText&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;33&quot; Margin=&quot;98,56,0,0&quot; TextWrapping=&quot;Wrap&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;380&quot; TextChanged=&quot;TextBox2_TextChanged&quot;/&gt;&#10;        &lt;Button x:Name=&quot;button&quot; Content=&quot;Local IP&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;23,56,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;75&quot; Height=&quot;33&quot; Click=&quot;Button_Click&quot;/&gt;&#10;        &lt;Button x:Name=&quot;openFileButton&quot; Content=&quot;参照&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;434,117,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;75&quot; Height=&quot;35&quot; Click=&quot;OpenFileButton_Click&quot;/&gt;&#10;        &lt;Button x:Name=&quot;button1&quot; Content=&quot;受け取る&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;658,0,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;134&quot; Height=&quot;64&quot; Click=&quot;Button1_Click&quot;/&gt;&#10;        &lt;TextBox x:Name=&quot;textBox&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;72&quot; Margin=&quot;631,347,0,0&quot; TextWrapping=&quot;Wrap&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;161&quot; TextChanged=&quot;TextBox_TextChanged_1&quot;/&gt;&#10;&#10;    &lt;/Grid&gt;.../&gt;" />
+            <marker date="1564894784143" expanded="true" signature="458:1717" ph="&lt;&lt;TextBox x:Name=&quot;File&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;35&quot; Margin=&quot;23,117,0,0&quot; TextWrapping=&quot;Wrap&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;380&quot; TextChanged=&quot;TextBox_TextChanged&quot;/&gt; &lt;Button x:Name=&quot;SendButton&quot; Content=&quot;Send&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;155,246,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;126&quot; Height=&quot;54&quot; Click=&quot;SendButton_Click&quot;/&gt; &lt;TextBox x:Name=&quot;ipText&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;33&quot; Margin=&quot;98,56,0,0&quot; TextWrapping=&quot;Wrap&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;380&quot; TextChanged=&quot;TextBox2_TextChanged&quot;/&gt; &lt;Button x:Name=&quot;button&quot; Content=&quot;Local IP&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;23,56,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;75&quot; Height=&quot;33&quot; Click=&quot;Button_Click&quot;/&gt; &lt;Button x:Name=&quot;openFileButton&quot; Content=&quot;参照&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;434,117,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;75&quot; Height=&quot;35&quot; Click=&quot;OpenFileButton_Click&quot;/&gt; &lt;Button x:Name=&quot;button1&quot; Content=&quot;受け取る&quot; HorizontalAlignment=&quot;Left&quot; Margin=&quot;658,0,0,0&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;134&quot; Height=&quot;64&quot; Click=&quot;Button1_Click&quot;/&gt; &lt;TextBox x:Name=&quot;textBox&quot; HorizontalAlignment=&quot;Left&quot; Height=&quot;72&quot; Margin=&quot;631,347,0,0&quot; TextWrapping=&quot;Wrap&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;161&quot; TextChanged=&quot;TextBox_TextChanged_1&quot;/&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TCPExchanger/FileExchange.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding>
+            <marker date="1566132621931" expanded="false" signature="6:127" ph="..." />
+            <marker date="1566132621931" expanded="true" signature="151:2606" ph="{...}" />
+            <marker date="1566132621931" expanded="true" signature="176:2604" ph="{...}" />
+            <marker date="1566132621931" expanded="true" signature="273:1183" ph="{...}" />
+            <marker date="1566132621931" expanded="true" signature="467:792" ph="/* FileStream fs = new FileStream(filename, FileMode.Open, FileAccess.Read); ... */" />
+            <marker date="1566132621931" expanded="true" signature="1238:1711" ph="{...}" />
+            <marker date="1566132621931" expanded="true" signature="1520:1648" ph="{...}" />
+            <marker date="1566132621931" expanded="true" signature="1780:2014" ph="{...}" />
+            <marker date="1566132621931" expanded="true" signature="2100:2598" ph="{...}" />
+            <marker date="1566132621931" expanded="true" signature="2201:2562" ph="{...}" />
+            <marker date="1566132621931" expanded="true" signature="2249:2548" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TCPExchanger/ReceiveWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+          <folding>
+            <marker date="1566579167487" expanded="false" signature="6:348" ph="..." />
+            <marker date="1566579167487" expanded="true" signature="373:1360" ph="{...}" />
+            <marker date="1566579167487" expanded="true" signature="380:449" ph="/// ReceiveWindow.xaml の相互作用ロジック ... " />
+            <marker date="1566579167487" expanded="true" signature="497:1358" ph="{...}" />
+            <marker date="1566579167487" expanded="true" signature="557:612" ph="{...}" />
+            <marker date="1566579167487" expanded="true" signature="687:1124" ph="{...}" />
+            <marker date="1566579167487" expanded="true" signature="879:962" ph="{...}" />
+            <marker date="1566579167487" expanded="true" signature="1025:1083" ph="{...}" />
+            <marker date="1566579167487" expanded="true" signature="1205:1240" ph="{...}" />
+            <marker date="1566579167487" expanded="true" signature="1298:1352" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TCPExchanger/Server.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="66" column="34" lean-forward="true" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+          <folding>
+            <marker date="1566579527628" expanded="false" signature="6:198" ph="..." />
+            <marker date="1566579527628" expanded="true" signature="222:2541" ph="{...}" />
+            <marker date="1566579527628" expanded="true" signature="241:2539" ph="{...}" />
+            <marker date="1566579527628" expanded="true" signature="504:659" ph="{...}" />
+            <marker date="1566579527628" expanded="true" signature="705:1112" ph="{...}" />
+            <marker date="1566579527628" expanded="true" signature="794:1049" ph="{...}" />
+            <marker date="1566579527628" expanded="true" signature="1180:2404" ph="{...}" />
+            <marker date="1566579527628" expanded="true" signature="1231:2386" ph="{...}" />
+            <marker date="1566579527628" expanded="true" signature="1921:2004" ph="{...}" />
+            <marker date="1566579527628" expanded="true" signature="2438:2533" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TCPExchanger/Client.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding>
+            <marker date="1566579739341" expanded="false" signature="6:181" ph="..." />
+            <marker date="1566579739341" expanded="true" signature="205:1278" ph="{...}" />
+            <marker date="1566579739341" expanded="true" signature="224:1276" ph="{...}" />
+            <marker date="1566579739341" expanded="true" signature="331:718" ph="{...}" />
+            <marker date="1566579739341" expanded="true" signature="357:505" ph="{...}" />
+            <marker date="1566579739341" expanded="true" signature="536:620" ph="{...}" />
+            <marker date="1566579739341" expanded="true" signature="779:1270" ph="{...}" />
+            <marker date="1566579739341" expanded="true" signature="1029:1208" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
