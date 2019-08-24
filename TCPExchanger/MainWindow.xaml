@@ -5,8 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TCPExchanger"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
-        Closing="WindowClosing">
+        Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TextBox x:Name="File" HorizontalAlignment="Left" Height="35" Margin="23,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" TextChanged="TextBox_TextChanged"/>
         <Button x:Name="SendButton" Content="Send" HorizontalAlignment="Left" Margin="155,246,0,0" VerticalAlignment="Top" Width="126" Height="54" Click="SendButton_Click"/>

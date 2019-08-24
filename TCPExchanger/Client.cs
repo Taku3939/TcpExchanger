@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net;
+using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Windows;
 
@@ -12,6 +14,7 @@ namespace TCPExchanger
     class Client
     {
         private static TcpClient _client;
+        private static NetworkStream nstream;
 
         public void Connect(string ip, int port, string file)
         {
@@ -35,7 +38,7 @@ namespace TCPExchanger
         public void Send(TcpClient client, Byte[] sendBytes)
         {
             //ファイルの送信
-            var nstream = client.GetStream();
+           nstream = client.GetStream();
             {
                 nstream.ReadTimeout = 15000;
                 nstream.WriteTimeout = 15000;
@@ -51,9 +54,15 @@ namespace TCPExchanger
 
         public static void Close()
         {
-            if (_client.Connected == true)
+            try
             {
+                nstream.Close();
                 _client.Close();
+                Console.WriteLine("切断した");
+            }
+            catch
+            {
+                Console.WriteLine("aaa");
             }
         }
     }

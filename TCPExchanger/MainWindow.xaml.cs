@@ -83,10 +83,5 @@ namespace TCPExchanger
         {
 
         }
-
-        private void WindowClosing(object sender, CancelEventArgs e)
-        {
-            Client.Close();
-        }
     }
 }

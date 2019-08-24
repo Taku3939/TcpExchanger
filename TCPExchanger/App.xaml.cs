@@ -13,5 +13,10 @@ namespace TCPExchanger
     /// </summary>
     public partial class App : Application
     {
+        protected override void OnExit(ExitEventArgs e)
+        {
+            Client.Close();
+            base.OnExit(e);
+        }
     }
 }
