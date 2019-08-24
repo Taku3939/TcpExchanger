@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -81,6 +82,11 @@ namespace TCPExchanger
         private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
         {
 
+        }
+
+        private void WindowClosing(object sender, CancelEventArgs e)
+        {
+            Client.Close();
         }
     }
 }

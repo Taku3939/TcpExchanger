@@ -39,7 +39,6 @@ namespace TCPExchanger
             FileStream fs = new FileStream(path + filename, FileMode.Create, FileAccess.Write);
             fs.WriteAsync(filebyte, 0, filebyte.Length).ContinueWith(task =>
             {
-                fs.Close();
                 Console.WriteLine("write");
                 MessageBox.Show("send");
             }, TaskScheduler.FromCurrentSynchronizationContext());

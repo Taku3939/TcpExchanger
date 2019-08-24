@@ -68,7 +68,12 @@ namespace TCPExchanger
                 MessageBox.Show("Received" + v + "bytes");
                 receiveCallBack?.Invoke(data);
                 mStream.Close();
-                client.Close();
+
+                if (data.Length == 0)
+               {  
+                   MessageBox.Show($@"Passive Closing : {client.Client.RemoteEndPoint}");
+                    client.Close(); 
+               }
             }        
         }
         public void CloseListen()

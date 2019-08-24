@@ -11,9 +11,9 @@ namespace TCPExchanger
 {
     class Client
     {
-        private TcpClient _client;
-    
-        public void Connect(string ip, int port,string file)
+        private static TcpClient _client;
+
+        public void Connect(string ip, int port, string file)
         {
             try
             {
@@ -24,25 +24,37 @@ namespace TCPExchanger
             catch
             {
                 Console.WriteLine("Error");
-                return ;
+                return;
             }
- 
+
             var fe = new FileExchange();
-            fe.LoadFile(file,_client);
- 
-            }
-        public void Send(TcpClient client ,Byte[] sendBytes){
+            fe.LoadFile(file, _client);
+
+        }
+
+        public void Send(TcpClient client, Byte[] sendBytes)
+        {
             //ファイルの送信
             var nstream = client.GetStream();
-            nstream.ReadTimeout = 15000;
-            nstream.WriteTimeout = 15000;
-
-            nstream.WriteAsync(sendBytes, 0, sendBytes.Length).ContinueWith(task =>
             {
-                Console.WriteLine("send");
-                MessageBox.Show("sendeBytes" + sendBytes.Length.ToString() + "Bytes"); 
-                nstream.Close();
-            },TaskScheduler.FromCurrentSynchronizationContext());
+                nstream.ReadTimeout = 15000;
+                nstream.WriteTimeout = 15000;
+
+                nstream.WriteAsync(sendBytes, 0, sendBytes.Length).ContinueWith(task =>
+                {
+                    Console.WriteLine("send");
+                    MessageBox.Show("sendeBytes" + sendBytes.Length.ToString() + "Bytes");
+
+                }, TaskScheduler.FromCurrentSynchronizationContext());
+            }
+        }
+
+        public static void Close()
+        {
+            if (_client.Connected == true)
+            {
+                _client.Close();
+            }
         }
     }
 }
