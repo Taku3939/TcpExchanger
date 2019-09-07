@@ -56,16 +56,16 @@ namespace TCPExchanger
 
         private void SendButton_Click(object sender, RoutedEventArgs e)
         {
-    
+            Byte[] fileBytes;
             string ip = ipText.Text;
             int port = 30000;
             string filename = File.Text;
+            
             Client client = new Client();
-            //fe.OnSendEvent += (data) =>
-            //{
-            //    client.Send(data);
-            //};
-            client.Connect(ip, port,filename);
+            var cl = client.Connect(ip, port);
+            var fe = new FileExchange();
+            fileBytes = fe.LoadFile(filename);
+            client.Send(cl,fileBytes);
         }
 
         private void Button1_Click(object sender, RoutedEventArgs e)

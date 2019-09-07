@@ -16,8 +16,10 @@ namespace TCPExchanger
         private static TcpClient _client;
         private static NetworkStream nstream;
 
-        public void Connect(string ip, int port, string file)
+        //相手とのTCP接続
+        public TcpClient Connect(string ip, int port)
         {
+           
             try
             {
                 //接続要求
@@ -27,12 +29,9 @@ namespace TCPExchanger
             catch
             {
                 Console.WriteLine("Error");
-                return;
+                return null;
             }
-
-            var fe = new FileExchange();
-            fe.LoadFile(file, _client);
-
+            return _client;
         }
 
         public void Send(TcpClient client, Byte[] sendBytes)

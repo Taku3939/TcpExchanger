@@ -12,9 +12,12 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Client.cs" t="Include" />
         <e p="FileExchange.cs" t="Include" />
+        <e p="JsonUtilities.cs" t="Include" />
         <e p="MainWindow.xaml" t="Include" />
         <e p="MainWindow.xaml.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Perosn.json" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
           <e p="Resources.Designer.cs" t="Include" />

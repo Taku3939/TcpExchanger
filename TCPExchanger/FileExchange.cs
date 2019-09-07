@@ -1,37 +1,33 @@
 ﻿using System;
+using static System.Console;
 using System.IO;
-using System.Net.Sockets;
 using System.Windows;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.Serialization.Json;
 
 namespace TCPExchanger
 {
-    class FileExchange
+    class FileExchange 
     {
-        //ファイルをバイナリ形式で読み込む
-        public void LoadFile(string filename, TcpClient client)
+        //ファイル（名前データを含む）をバイトでもどす
+        public Byte[] LoadFile(string filename)
         {
             var readbyte = File.ReadAllBytes(filename);
             string file = Path.GetFileName(filename);
             byte[] namebyte = Encoding.UTF8.GetBytes(file);
-
-            //FileStream fs = new FileStream(filename, FileMode.Open, FileAccess.Read);
-            //string file = Path.GetFileName(filename);
-            //byte[] namebyte = Encoding.UTF8.GetBytes(file);
-            //byte[] readbyte = new byte[fs.Length];
-            //fs.Read(readbyte, 0, readbyte.Length);
-            //fs.Close();
 
             byte[] bytes = new byte[namebyte.Length+readbyte.Length+1] ;
           
             Array.Copy(namebyte,0,bytes,0,namebyte.Length);
             Array.Copy(readbyte,0,bytes,namebyte.Length + 1,readbyte.Length);
             bytes[namebyte.Length] = 255;
-            Client cl = new Client();
-            cl.Send(client, bytes);
             Console.WriteLine("convert");
+            //Client cl = new Client();
+            return bytes;
         }
+        
+        //ファイルのpathとbyteを渡すと書き込む
         public void WriteFile(string path, byte[] res)
         {
             string filename;
@@ -43,15 +39,16 @@ namespace TCPExchanger
                 MessageBox.Show("send");
             }, TaskScheduler.FromCurrentSynchronizationContext());
         }
+        //CutByteをつかって名前のstringとファイルのバイトを取得する
         public static byte[] GetbyByte(byte[] bytes,out string name)
         {
             byte[] namebyte, filebyte;
             if (!CutByte(bytes, out namebyte, out filebyte)) throw new Exception("Error");
             name = Encoding.UTF8.GetString(namebyte);
             return filebyte;
-
         }
 
+        //名前と本体のバイトデータにわける
         public static bool CutByte(byte[] bytes, out byte[] head, out byte[] footer)
         {
             head = null; footer = null;
@@ -67,6 +64,36 @@ namespace TCPExchanger
                 }
             }
             return false;
+        }
+    }
+
+
+    class JsonExchange
+    {
+        /// <summary>
+        /// 任意のオブジェクトを JSON メッセージへシリアライズします。
+        /// </summary>
+        public static string Serialize(object graph)
+        {
+            using (var stream = new MemoryStream())
+            {
+                var serializer = new DataContractJsonSerializer(graph.GetType());
+                serializer.WriteObject(stream, graph);
+                return Encoding.UTF8.GetString(stream.ToArray());
+            }
+        }
+
+        /// <summary>
+        /// Jsonメッセージをオブジェクトへデシリアライズします。
+        /// </summary>
+        public static T Deserialize<T>(string message)
+        {
+            using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(message)))
+            {
+                var deserialized = new DataContractJsonSerializer(typeof(T));
+                Console.WriteLine(@"Name:{deserialized.Name}");
+                return (T) deserialized.ReadObject(stream);
+            }
         }
     }
 }
